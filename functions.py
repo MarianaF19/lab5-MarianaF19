@@ -5,4 +5,4 @@ def promedio_estudiante(calificaciones):
     promedio = suma / len(calificaciones)
 
     return float(promedio)
-print(promedio_estudiante([85, 92,78]))
+print(promedio_estudiante([]))
