@@ -1,6 +1,6 @@
 from utils import *
-
-menssage = input("Please type your menssage\n")
-codified = flip(menssage) + str(count_letters(menssage, 'a'))
-
-print(f"Your encoded menssage is: {codified}")
+ 
+mensaje = input("Please type your message\n")
+codificado = flip(mensaje) + str(count_letters(mensaje, 'a'))
+ 
+print(f"Your encoded message is: {codificado}")
