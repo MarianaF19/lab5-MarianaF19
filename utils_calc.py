@@ -12,7 +12,7 @@ def divide(num1, num2):
         return "Error: Division by zero is not allowed."
     return float(num1 / num2)
   
-def expoent(base, exp):
+def exponent(base, exp):
     return base ** exp
 
 def modulo(num1, num2):

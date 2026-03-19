@@ -23,7 +23,7 @@ while True:
         elif op == "divide":
             result = divide(num1, num2)
         elif op == "exponent":
-            result = expoent(num1, num2)
+            result = exponent(num1, num2)
         elif op == "modulo":
             result = modulo(num1, num2)
         elif op == "floor_divide":
