@@ -1,41 +1,42 @@
 from utils import *
 from utils_calc import *
-
-operations_two = ["add", "subtract", "multiply", "divide", "exponent", "modulo", "floor_divide"]
-operations_one = ["absolute"]
-
+ 
+operaciones_dos = ["add", "subtract", "multiply", "divide", "exponent", "modulo", "floor_divide"]
+operaciones_uno = ["absolute"]
+ 
 while True:
     op = input("Which calculation would you like to perform? (add, subtract, multiply, divide, exponent, modulo, floor_divide, absolute or exit):\n")
-
+ 
     if op == "exit":
         break
-
-    elif op in operations_two:
+ 
+    elif op in operaciones_dos:
         num1 = float(input("Enter the first number:\n"))
         num2 = float(input("Enter the second number:\n"))
-
+ 
         if op == "add":
-            result = add(num1, num2)
+            resultado = add(num1, num2)
         elif op == "subtract":
-            result = sub(num1, num2)
+            resultado = sub(num1, num2)
         elif op == "multiply":
-            result = multiply(num1, num2)
+            resultado = multiply(num1, num2)
         elif op == "divide":
-            result = divide(num1, num2)
+            resultado = divide(num1, num2)
         elif op == "exponent":
-            result = exponent(num1, num2)
+            resultado = exponent(num1, num2)
         elif op == "modulo":
-            result = modulo(num1, num2)
+            resultado = modulo(num1, num2)
         elif op == "floor_divide":
-            result = floor_divide(num1, num2)
-
-        print(f"The result is: {result}")
-
-    elif op in operations_one:
+            resultado = floor_divide(num1, num2)
+ 
+        print(f"The result is: {resultado}")
+ 
+    elif op in operaciones_uno:
         num = float(input("Enter the number:\n"))
-
-        result = absolute(num)
-        print(f"The result is: {result}")
-
+ 
+        resultado = absolute(num)
+ 
+        print(f"The result is: {resultado}")
+ 
     else:
         print("Invalid option!")
