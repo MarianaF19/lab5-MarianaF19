@@ -8,5 +8,5 @@ def input_response(generate_value, user_input):
     elif generate_value == user_input:
         print("Correct! You guessed the number!\n")
         value = True
-
+ 
     return value
